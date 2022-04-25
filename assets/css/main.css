@@ -1,0 +1,32 @@
+/* Organizando o arquivo CSS */
+
+/* Limpando o navegador. CSS Reset */
+
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:azure;
+    color:mediumvioletred;
+}
+
+/* Quando a largura mínima for de 768px (tablet) aplique este CSS */
+
+@media (min-width: 768px) {
+   html body {
+    /* especificidade CSS. Quanto mais específico o seletor, mais importante ele será em termos de ordem. */
+        background-color:unset;
+        color:mediumvioletred;
+    }
+
+    body {
+        background-color:rgb(190, 244, 244);
+    }
+}
