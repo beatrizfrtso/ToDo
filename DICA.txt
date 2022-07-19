@@ -1,5 +1,0 @@
-3 valores no CSS que são universais:
-
-- Inherit: Herança explícita
-- Initial:Força a redefinição de valores
-- Unset: Desabilita uma propriedade CSS
